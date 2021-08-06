@@ -93,3 +93,6 @@ BOARD_HAS_LARGE_FILESYSTEM := true
 # Crypto
 BOARD_USES_QCOM_FBE_DECRYPTION := true
 BOARD_USES_METADATA_PARTITION := true
+
+# PitchBlack specific build flags
+PB_DEVICE_RATIO := "20:9"
