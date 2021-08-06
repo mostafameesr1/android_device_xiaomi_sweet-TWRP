@@ -96,3 +96,4 @@ BOARD_USES_METADATA_PARTITION := true
 
 # PitchBlack specific build flags
 PB_DEVICE_RATIO := "20:9"
+PB_TORCH_PATH := "/sys/class/leds/led:torch_0"
