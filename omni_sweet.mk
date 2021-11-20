@@ -22,7 +22,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/pb/config/common.mk)
-$(call inherit-product, build/target/product/embedded.mk)
+#$(call inherit-product, build/target/product/embedded.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/xiaomi/sweet/device.mk)
