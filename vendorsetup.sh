@@ -62,6 +62,9 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 	export OF_IGNORE_LOGICAL_MOUNT_ERRORS=1
         export OF_FBE_METADATA_MOUNT_IGNORE=1
 
+	# Use Magisk v25.1 for the magisk addon
+	export FOX_USE_SPECIFIC_MAGISK_ZIP=~/Magisk/Magisk-v25.1.zip
+
         # OTA
         export OF_KEEP_DM_VERITY=1
         export OF_SUPPORT_ALL_BLOCK_OTA_UPDATES=1
