@@ -80,8 +80,8 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 	# Maximum permissible splash image size (in kilobytes); do *NOT* increase!
 	export OF_SPLASH_MAX_SIZE=130
 
-	# R11.1 Settings
-	export FOX_VERSION="R11.1"
+	# R12.1 Settings
+	export FOX_VERSION="R12.1_1"
 	export OF_MAINTAINER="Aryan"
 
 	# Let's see what are our build VARs
