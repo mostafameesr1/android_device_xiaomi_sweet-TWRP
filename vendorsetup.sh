@@ -63,8 +63,8 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
         export OF_FBE_METADATA_MOUNT_IGNORE=1
         export OF_ENABLE_FS_COMPRESSION=1
 
-	# Use Magisk v26.3 for the magisk addon
-	export FOX_USE_SPECIFIC_MAGISK_ZIP=~/Magisk/Magisk-v26.3.zip
+	# Use Magisk v27.0 for the magisk addon
+	export FOX_USE_SPECIFIC_MAGISK_ZIP=~/Magisk/Magisk-v27.0.zip
 
         # OTA
         export OF_KEEP_DM_VERITY=1
