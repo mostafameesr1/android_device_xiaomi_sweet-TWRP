@@ -53,7 +53,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
         export FOX_BUGGED_AOSP_ARB_WORKAROUND="1546300800"; # Tuesday, January 1, 2019 12:00:00 AM GMT+00:00
 
 	# R11.1 Settings
-	export FOX_VERSION="R12.1_1"
+	export FOX_VERSION="R11.1_1-Neom"
 	export OF_MAINTAINER="mostafameesr"
 
 else
